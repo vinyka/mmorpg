@@ -1,0 +1,46 @@
+﻿{
+  "RouteAuthorization": {},
+  "Hosts": [
+    "http://localhost:5400"
+  ],
+  "Cors": [],
+  "DataProtectionKey": "5874108E04CAB69CA2513E6783FE99FE20F5740561BCB67C61D0AA02626B9C4B",
+  "Enabled": false,
+  "DebugMode": false,
+  "SeedMode": false,
+  "RefreshTokenLifetime": 15,
+  "ThrottlePolicy": {
+    "IpThrottling": true,
+    "IpWhitelist": [],
+    "IpRules": {},
+    "ClientThrottling": true,
+    "ClientWhitelist": [],
+    "ClientRules": {
+      "test": {
+        "PerSecond": 1,
+        "PerMinute": 10,
+        "PerHour": 0,
+        "PerDay": 0,
+        "PerWeek": 0
+      }
+    },
+    "EndpointThrottling": true,
+    "EndpointWhitelist": [],
+    "EndpointRules": {
+      "/api/oauth/token": {
+        "PerSecond": 1,
+        "PerMinute": 5,
+        "PerHour": 0,
+        "PerDay": 0,
+        "PerWeek": 0
+      }
+    },
+    "StackBlockedRequests": true,
+    "Rates": {
+      "Second": 1,
+      "Minute": 60
+    }
+  },
+  "FallbackClientKey": "test",
+  "RequestLogLevel": 128
+}

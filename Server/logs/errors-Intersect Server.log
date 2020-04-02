@@ -1,0 +1,15 @@
+﻿2020-04-02 23:36:24.469 [Error] Received unhandled exception from Nome:Intersect Server.exe
+Não existem políticas de contexto.
+.
+
+--------------------------------------------------------------------------------
+2020-04-02 23:36:24.472 [Error] 
+  Message: Referência de objeto não definida para uma instância de um objeto.
+    Stack:    em Intersect.Server.Core.ServerContext.Dispose(Boolean disposing) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Server\Core\ServerContext.cs:linha 113
+   em Intersect.Core.ApplicationContext`1.InternalDispose() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Core\ApplicationContext.cs:linha 157
+   em Intersect.Threading.ConcurrentInstance`1.ClearWith(TInstance instance, Action action) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Threading\ConcurrentInstance.cs:linha 41
+   em Intersect.Core.ApplicationContext`1.Dispose() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Core\ApplicationContext.cs:linha 149
+   em Intersect.Server.Core.Bootstrapper.ConsoleCtrlCheck(CtrlTypes ctrlType) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Server\Core\Bootstrapper.cs:linha 538
+
+
+--------------------------------------------------------------------------------
