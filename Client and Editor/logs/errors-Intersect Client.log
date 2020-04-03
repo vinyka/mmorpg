@@ -1,0 +1,40 @@
+﻿2020-04-03 00:08:03.613 [Error] 
+  Message: Could not resolve host
+    Stack:    em Lidgren.Network.NetPeer.GetNetEndPoint(String host, Int32 port) na C:\Users\JC Snider\Documents\GitHub\lidgren-network-gen3\Lidgren.Network\NetPeer.cs:linha 278
+   em Lidgren.Network.NetPeer.Connect(String host, Int32 port, NetOutgoingMessage hailMessage) na C:\Users\JC Snider\Documents\GitHub\lidgren-network-gen3\Lidgren.Network\NetPeer.cs:linha 295
+   em Intersect.Network.LidgrenInterface.Connect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\LidgrenInterface.cs:linha 207
+   em Intersect.Network.LidgrenInterface.Start() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\LidgrenInterface.cs:linha 174
+   em Intersect.Network.AbstractNetwork.<>c.<StartInterfaces>b__50_0(INetworkLayerInterface networkLayerInterface) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Network\AbstractNetwork.cs:linha 268
+   em System.Collections.Generic.List`1.ForEach(Action`1 action)
+   em Intersect.Network.AbstractNetwork.StartInterfaces() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Network\AbstractNetwork.cs:linha 268
+   em Intersect.Network.ClientNetwork.Connect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\ClientNetwork.cs:linha 77
+   em Intersect.Client.MonoGame.Network.MonoSocket.Connect(String host, Int32 port) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\MonoGame\Network\MonoSocket.cs:linha 55
+   em Intersect.Client.Networking.Network.TryConnect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Networking\Network.cs:linha 50
+   em Intersect.Client.Networking.Network.InitNetwork() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Networking\Network.cs:linha 43
+   em Intersect.Client.Core.Main.Start() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Core\Main.cs:linha 40
+   em Intersect.Client.MonoGame.IntersectGame.Initialize() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\MonoGame\IntersectGame.cs:linha 102
+   em Microsoft.Xna.Framework.Game.DoInitialize()
+   em Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+
+
+--------------------------------------------------------------------------------
+2020-04-03 00:08:15.129 [Error] 
+  Message: Could not resolve host
+    Stack:    em Lidgren.Network.NetPeer.GetNetEndPoint(String host, Int32 port) na C:\Users\JC Snider\Documents\GitHub\lidgren-network-gen3\Lidgren.Network\NetPeer.cs:linha 278
+   em Lidgren.Network.NetPeer.Connect(String host, Int32 port, NetOutgoingMessage hailMessage) na C:\Users\JC Snider\Documents\GitHub\lidgren-network-gen3\Lidgren.Network\NetPeer.cs:linha 295
+   em Intersect.Network.LidgrenInterface.Connect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\LidgrenInterface.cs:linha 207
+   em Intersect.Network.LidgrenInterface.Start() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\LidgrenInterface.cs:linha 174
+   em Intersect.Network.AbstractNetwork.<>c.<StartInterfaces>b__50_0(INetworkLayerInterface networkLayerInterface) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Network\AbstractNetwork.cs:linha 268
+   em System.Collections.Generic.List`1.ForEach(Action`1 action)
+   em Intersect.Network.AbstractNetwork.StartInterfaces() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Network\AbstractNetwork.cs:linha 268
+   em Intersect.Network.ClientNetwork.Connect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Network\ClientNetwork.cs:linha 77
+   em Intersect.Client.MonoGame.Network.MonoSocket.Connect(String host, Int32 port) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\MonoGame\Network\MonoSocket.cs:linha 55
+   em Intersect.Client.Networking.Network.TryConnect() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Networking\Network.cs:linha 50
+   em Intersect.Client.Networking.Network.InitNetwork() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Networking\Network.cs:linha 43
+   em Intersect.Client.Core.Main.Start() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\Core\Main.cs:linha 40
+   em Intersect.Client.MonoGame.IntersectGame.Initialize() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Client\MonoGame\IntersectGame.cs:linha 102
+   em Microsoft.Xna.Framework.Game.DoInitialize()
+   em Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+
+
+--------------------------------------------------------------------------------
