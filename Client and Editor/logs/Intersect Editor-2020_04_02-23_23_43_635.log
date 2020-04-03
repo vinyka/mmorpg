@@ -1,0 +1,9 @@
+﻿2020-04-03 02:23:43.671 [Error] 
+  Message: O processo não pode acessar o arquivo 'C:\Users\viny_\Desktop\mmorpg\Client and Editor\sqlite3.dll' porque ele está sendo usado por outro processo.
+    Stack:    em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   em Intersect.Editor.Program.Main() na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect.Editor\Core\Program.cs:linha 42
+
+
+--------------------------------------------------------------------------------
