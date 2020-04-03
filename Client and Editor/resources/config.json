@@ -1,0 +1,13 @@
+﻿{
+  "Host": "shinecode.com.br",
+  "Port": 5400,
+  "GameFont": "sourcesansproblack",
+  "EntityNameFont": "sourcesansproblack",
+  "ChatBubbleFont": "sourcesansproblack",
+  "ActionMsgFont": "sourcesansproblack",
+  "UIFont": "sourcesanspro,8",
+  "ChatLines": 100,
+  "MenuMusic": "RPG-Theme_v001_Looping.ogg",
+  "MenuBackground": "background.png",
+  "IntroImages": []
+}

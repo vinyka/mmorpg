@@ -1,0 +1,32 @@
+﻿2020-04-03 00:04:23.132 [Warn] 
+  Message: Missing configuration file.
+    Stack:    em Intersect.Configuration.ConfigurationHelper.Load[T](T configuration, String filePath, Boolean failQuietly) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Configuration\ConfigurationHelper.cs:linha 24
+   em Intersect.Configuration.ClientConfiguration.Load(String filePath, Boolean failQuietly) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Configuration\ClientConfiguration.cs:linha 23
+   em Intersect.Configuration.ConfigurationHelper.LoadSafely[T](T configuration, String filePath) na C:\TeamCity\buildAgent\work\40dc5d27074313da\Intersect (Core)\Configuration\ConfigurationHelper.cs:linha 85
+
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:23.659 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:39.674 [Debug] StatusChanged: [NetIncomingMessage #0 63 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:39.675 [Debug] Unknown client disconnected (00-00-00-00-00-00-00-00).
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:39.676 [Info] Disconnected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:39.708 [Info] Connecting to 127.0.0.1:5400...
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:43.420 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:43.442 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/127.0.0.1:5400].
+
+--------------------------------------------------------------------------------
+2020-04-03 00:04:43.442 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
