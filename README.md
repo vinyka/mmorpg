@@ -1,9 +1,10 @@
+<br><center>[![PenseiAlto](https://penseialto.com.br/logo.png)](https://www.penseialto.com.br)</center></br>
 # Nastrond ORPG
 <br>website developers team; https://penseialto.com.br -- shinecode.xyz</br>
 <br>Developer contact; vinyka@penseialto.com.br -- vinyka@shinecode.xyz</br>
 <br>Developer contact; condizion@penseialto.com.br</br>
 <br>Design Art contact; bankow@penseialto.com.br</br>
-<br>Quest Line & History; @</br>
+<br>Quest Line & History; monalisa@penseialto.com.br</br>
 <br>Testers; KimbMF1 && JoaoPedro && Pineda</br>
 
 <br>Alpha 0.2 * 04/03/2020</br>
